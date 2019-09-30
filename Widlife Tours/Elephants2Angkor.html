@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Elephants2Angkor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset ="UTF-8">
+	
+	<!-- CSS -->
+	<link rel ="stylesheet" type="text/css" href="css/elephants.css">
+	<link rel ="stylesheet" type="text/css" href="../slick/slick.css"/>
+	<link rel ="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+	<link rel ="stylesheet" type="text/css" href="../css/slick.css">
+	<link rel ="stylesheet" type="text/css" href="../css/red-center-adventure-1.css">
+
+	<!-- font awesome -->
+	<link rel ="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+	<!-- css bootstrap 4 -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="wp">
+		<!--==================== start top-bar ====================-->
+		<div class="top-bar">
+			<div class="container bg-#000">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+						<ul class="row list-inline">
+							<li class="col-sm-12 col-md-6 pr-0 float-left">
+								<span><i class="fa fa-map-marker-alt mr-3"></i></span>590 CMTT, W.11, D.3, C. HCM
+							</li>
+							<li class="col-sm-12 col-md-6 pr-0 float-left">
+								<span><i class="fas fa-phone-alt mr-3"></i></span>Hotline: (024) 7300 8855
+							</li>
+                        </ul>
+	                </div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-0">
+                        <div class="p-0 links">
+                            <ul class="list-unstyled list-inline text-center">
+								<li class ="d-inline-block login"><a href="../log-in.html" class="signin"><span class="pr-2"><i class="fa fa-lock"></i></span>Login</a></li>
+								<li class ="d-inline-block signin"><a href="../register.html" class="login"><span class="pr-2"><i class="fa fa-plus"></i></span>Register</a></li>
+                                <li class="d-inline-block">
+                                    <form>
+                                        <ul class="list-inline">
+                                            <li class="d-inline-block list-money">
+                                                <div class="form-group currency">
+                                                    <select class="form-control bg-#000 list-language">
+														<option value ="Dollar">$</option>
+														<option value ="Error">£</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                            <li class="d-inline-block list-language">
+                                                <div class="form-group language">
+                                                    <select class="form-control bg-#000 list-language">
+                                                        <option value="Enghlish">EN</option>
+                                                        <option value="">UR</option>
+                                                        <option value="Frank">FR</option>
+                                                        <option value="">IT</option>
+                                                    </select>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div><!-- End top-bar -->
+
+		<!-- ================== start nav-bar ==================  -->
+		<nav class="navbar sticky-top navbar-expand-md p-3 bg-white" id="menutop" style="border-bottom: 1px solid #bcbcbc;">
+	        <div class="container">
+	            <a href="../index.html" class="w-75"><span><i class="fa fa-plane"></i>STAR</span>TRAVELS</a>
+	            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+	                <i class="fa fa-bars"></i>
+	            </button>
+	            <div class="clearfix w-100">
+	                <div class="navbar-collapse offcanvas-collapse float-right">
+	                    <form class="form-inline my-2 my-lg-0 text-center">
+	                        <div class="form-group text-center">
+	                            <a class="mr-4" href=""><i class="fa fa-search"></i></a>
+	                        </div>
+	                    </form>
+	                    <ul class="navbar-nav mr-auto">
+	                        <li class="nav-item active mr-3 text-uppercase">
+	                            <a class="nav-link active" href="../index.html">Home<span class="sr-only">(current)</span></a>
+	                        </li>
+	                        <li class="nav-item dropdown mr-3">
+	                            <a class="nav-link dropdown-toggle text-uppercase" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type of Tours</a>
+	                            <div class="dropdown-menu text-center">
+	                                <a class="dropdown-item" href="../adventure-tours.html">Adventure-tours</a>
+	                                <a class="dropdown-item" href="../beach-tours.html">Beach Tours</a>
+	                                <a class="dropdown-item" href="../historical-tours.html">Historical Tours</a>
+	                                <a class="dropdown-item" href="../widlife-tours.html">Widlife Tours</a>
+	                            </div>
+	                        </li>
+	                        <li class="nav-item dropdown mr-3">
+	                            <a class="nav-link dropdown-toggle text-uppercase" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+	                            <div class="dropdown-menu text-center">
+	                                <a class="dropdown-item" href="../about-us.html">About Us</a>
+	                                <a class="dropdown-item" href="../contact-us.html">Contact&nbsp;Us</a>
+	                            </div>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </nav>
+		<!-- ================== end nav-bar ==================  -->
+		
+		<!--================ start page-cover ================-->
+        <section class="page-cover" id="cover-tour-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                    	<h1 class="page-title">Welcome to Elephants2Angkor</h1>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item font-weight-bold" style="color: #faa61f">Type of Tours</li>
+                            <li class="breadcrumb-item"><a href="../widlife-tours.html">Widlife Tours</a></li>
+                            <li class="breadcrumb-item"><a href="Elephants2Angkor.html">Elephants2Angkor</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!-- ================= end page-tour ================= -->
+		
+
+		
+		<!-- ================= start intro ================= -->
+		<div class="container mt-5">
+			<div class="convince-3 mb-5">
+				<h3 class="mb-3 font-weight-bold">Introduction</h3>
+				<p class="ml-4">Here at Bamboo, we simply LOVE elephants and if you do too, this tour is for you! Starting in the stunning northern city of Chiang Mai you'll spend time at two of our supported elephant projects, each with very different itineraries and reasons for doing what they do. You'll then travel to the coffee capital of Chiang Rai and on to the hustle and bustle of Bangkok. Once your time in Thailand is coming to a close, as a special treat, we'll hop you across the Thailand-Cambodian border to the magical city of Siem Reap for an unforgettable sunrise trip to one of the Seven Wonders of the World – Angkor Wat...you lucky, lucky people!</p>
+				<p class="ml-4">We've dedicated our lives to aid NGOs and private, elephant-based projects across Thailand and will continue to do so as long as it needs to be done. Whilst there is no single set approach that all projects must follow, we have undertaken hours upon hours of due-diligence to ensure that the projects we support offer the right mixture of healthcare, support, exercise and love for these majestic beasts. This tour has been designed to show you two of the most amazing elephant project-types in Thailand. At both locations, you will be educated as to why this project exists, its primary goals and objectives and how your money supports the work that happens. At the end of your time with each of the projects, we'll hold a group Q&A to discuss your thoughts, ideas and suggestions. The reason that this tour has been created is that there is so much media coverage of elephants in Thailand, we feel to give you a completely non-biased overview of two of the most common project types will allow you to make up your own mind on this very emotive subject. You will leave the tour very well informed and can then make up your own mind, rather than be led by what you might read or see across social media.</p>
+				<p class="ml-4">And finally, we hope that during this 14-day tour, we hope you will have a fun and exciting experience.</p>
+			</div>			
+			<div class="mt-5 mb-4 text-center">
+				<h1 class="font-weight-bold" style="color: #faa61f">Let's go to the details of this tour:</h1>
+			</div>
+		</div>
+		<!-- ================= end intro ================= -->
+		<!-- ================= start left-bar ================= -->
+		<div class="wp-left-bar mb-5 left-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-4 main-left-bar">
+						<div class="text-center">
+							<p><a href="../pdf/elephants.pdf" target="blank">Click here to Download Brochure</a></p>
+						</div>
+						<div class="container p-0 m-0">
+							<div class="price">
+								<h2>$650.00</h2>
+								<p>History</p>
+							</div>
+							<div class="container booking-form pb-3">
+								<div class="booking-title">
+									<h3>Book Tour</h3>
+									<p>Come to your dream tour!</p>
+								</div>
+								<form>
+									<div class="form-group">
+										<input type="text" name="first-name" class="form-control" placeholder="First Name" required>
+									</div>
+									<div class="form-group">
+										<input type="text" name="last-name" class="form-control" placeholder="Last Name" required>
+									</div>
+									<div class="form-group">
+										<input type="email" name="mail" class="form-control"placeholder="Email" pattern="\w+@\w+\.\w+" required>
+									</div>
+									<div class="form-group">
+										<input type="phone" name="phone" class="form-control"  placeholder="Phone" pattern="[0-9]{10}" required>
+									</div>
+									<div class="form-group">
+	                            		<input type="date" name="date" class="form-control">
+	                                </div>
+	                                <div class="row">
+	                                	<div class="col-sm-12 col-md-12 col-lg-6 adults">
+			                                <div class="form-group">
+			                                	<select class="form-control">
+			                                		<option selected>Adults</option>
+			                                		<option>1</option>
+			                                		<option>2</option>
+			                                		<option>3</option>
+			                                		<option>4</option>
+			                                		<option>5</option>
+			                                	</select>
+			                                	<i class="fa fa-angle-down"></i>
+			                                </div>
+	                                	</div>
+	                                	<div class="col-sm-12 col-md-12 col-lg-6 children">
+			                                <div class="form-group">
+			                                	<select class="form-control">
+			                                		<option selected>Children</option>
+			                                		<option>1</option>
+			                                		<option>2</option>
+			                                		<option>3</option>
+			                                		<option>4</option>
+			                                		<option>5</option>
+			                                	</select>
+			                                	<i class="fa fa-angle-down"></i>
+			                                </div>
+	                                	</div>
+	                                </div>
+	                                <div class="form-group payment-method">
+	                                	<select class="form-control">
+	                                		<option selected>Payment Method</option>
+	                                		<option>Credit Card</option>
+	                                		<option>Paypal</option>
+	                                	</select>  
+	                                	<i class="fa fa-angle-down"></i>                              	
+	                                </div>
+	                                <div class="checkbox custom-check d-inline-block">
+                                        <label class="check">
+										  <input type="checkbox" checked="">
+										  <span class="checkmark"></span><small class="ml-4">By continuing, you are agree to the <a href="#">Terms & Conditions.</a></small>
+										</label>
+                                    </div>
+									<button class="btn btn-block btn-orange w-75 p-2 m-auto text-uppercase" style="border-radius: 0px; background-color: #faa61f; color: #fff">Confirm Booking</button>
+								</form>
+							</div>
+						</div>
+						<!-- =============== start Need help =============== -->
+						<div class="side-bar-block support-block need-help mt-5">
+	                        <h3>Need Help</h3>
+	                        <p>You have any questions you can contact us via the hotline below:</p>
+	                        <div class="support-contact">
+	                            <div class="hotline">
+	                            	<span><i class="fas fa-phone-alt"></i></span>
+		                            <p class="d-inline">(024) 7300 8855</p><br>
+	                            </div>
+	                        </div><!-- end support-contact -->
+	                    </div><!-- end side-bar-block -->
+	                    <!-- =============== end Need help =============== -->
+
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-8 main-right-bar">
+						<div class="m-auto">
+							<div class="">
+								<h3 class="m-0 mb-2 font-weight-bold">Gallery</h3>
+							</div>
+							<div class="slider-for">
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-1.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-2.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-3.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-4.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-5.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-6.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-7.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-8.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-9.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-10.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-11.jpg" alt="image"  draggable="false"/>
+								</div>
+							</div>
+							<div class="slider-nav">
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-1.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-2.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-3.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-4.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-5.jpg" alt="image" draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-6.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-7.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-8.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-9.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-10.jpg" alt="image"  draggable="false"/>
+								</div>
+								<div class="item">
+									<img src="image/Elephants2Angkor/elephants2Angkor-11.jpg" alt="image"  draggable="false"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="container mt-5">
+						  	<h3 class="font-weight-bold">Itinerary</h3>
+						  	<div id="accordion" class="myaccordion">
+							  	<div class="card">
+							    	<div class="card-header" id="headingOne">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">DAY 1: TOUCHDOWN
+								          		<span class="fa-stack fa-sm">
+									            	<i class="fas fa-circle fa-stack-2x"></i>
+									            	<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+								    <div id="collapseOne" class="collapse itinerary1" aria-labelledby="headingOne">
+									    <div class="card-body">
+									        <p>Come one, come all to the remote city of Chiang Mai. Whether you’ve flown here or managed to sail halfway across the world and hike through miles of rainforest, our staff will greet you upon your entry and whisk you away to your hotel near the old city gates. From there, have a shower, relax, or venture off into the heart of this temple town. The day is yours to explore. If you’re up for it tonight, we’ll have an informal meet-and-greet with dinner, some drinks, some laughter, another drink or two before passing out from the jet-lag. </p>
+									        <p>Meals: You’re on your own today. </p>
+									    </div>
+								    </div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingTwo">
+							      	<h2 class="mb-0">
+							        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">DAY 2: MY OH MAI
+								          	<span class="fa-stack fa-2x">
+								            	<i class="fas fa-circle fa-stack-2x"></i>
+								            	<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          	</span>
+							        	</button>
+							      	</h2>
+							    	</div>
+							    	<div id="collapseTwo" class="collapse itinerary2" aria-labelledby="headingTwo">
+							      		<div class="card-body">
+									        <p>Since the reign of the Lanna Kingdom over 500- years-ago, a cunning metropolis has developed around ancient Chiang Mai. The time begins with a brief orientation then tour of the city, where we’ll leisurely wander through the backstreets, markets and temples that deem this town “The Rose of the North.” Pit stops at the Wai Sri Suphan and Doi Suthep are remarkable enough to consider joining the monastery by mid-day—please, tell us beforehand, though. Our day concludes with a proper dinner at the famous Night Market, where we’ll class it up for at least one night, and then wander into the night, perhaps to the hilarious, world-famous drag show, when this sleepy country town wakes up. </p>
+									        <p>Meals: Breakfast, lunch and dinner</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingThree">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">DAY 3: CHIANG MAI TO ELEPHANT LOCATION 1
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseThree" class="collapse itinerary3" aria-labelledby="headingThree">
+							      		<div class="card-body">
+							        		<p>Breakfast early before jaunting outside of Chiang Mai and into the Thai rainforest to the Elephant location 1, an eco-tourism project launched by local hill-tribes to protect the welfare of elephants. For the next few days, we’ll befriend, feed, bathe, and cuddle the elephants, all while planting food and building a proper ecosystem for the mammoth mammals. Today, our first day, the “Mahouts” (the elephants’ human guardians) will supply their secret elephant handshake you’ll use to greet the animals. What you’ll soon realize, though, is the handshake matters less than what’s in your other hand. Like humans, the way to an elephant’s heart is through its stomach, so you’ll be feeding the creatures plenty of fruits and vegetables, while simultaneously hugging, cuddling, selfie-ing, and daydreaming about your future life together with baby elephants—marriage, more baby elephants, taking little Dumbo to school. Once fed their daily diet of 300 kg (660 lbs.) of fruits, bamboo, and hopefully nobody’s arm (they don’t eat arms), you’ll parade the animals for their ceremonial elebath. Your day ends muddied and in a traditional jungle house. It’s rough-necking, but that’s life out here with the elephants. Totally worth it. Please note for cultural reasons there are a few clothing requirements whilst at the project. You will get the chance to swim with and bath the elephants (be aware this will cause serious feelings of jealousy from your friends and family at home). Whilst in the river you will need to pair your swimming costume with shorts; if a bikini is more your style you will need a t-shirt on too. When walking around the camp please make sure you have either your shoulders or knees covered at all times.</p>
+							        		<p>Meals: Breakfast lunch and dinner</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingFour">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">DAY 4: ELEPHANT LOCATION 1
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseFour" class="collapse itinerary4" aria-labelledby="headingFour">
+							      		<div class="card-body">
+							        		<p>Yesterday may have been about feeding and hugging the elephant population, but today concern is sustaining the species. With the help from the Mahouts, we’ll be planting sugar cane, bamboo, and bananas to keep the elephant pantry stocked. We can’t have them eating arms, right? You may also be involved in some community development work such as building local vet clinics. By midday, we’ll probably have sweat off a few kilos, so we’ll refuel with a traditional Thai lunch and a dip under a waterfall in the rainforest’s river. Only clichés can sufficiently describe this beauty, so we’ll just say, “it’s majestic.” At the day’s end, fully exhausted, we’ll come together for dinner and drinks, discussing our time with the elephants and realizing that the only purity left in this world is in the eyes of a baby elephant splashing in the mud. </p>
+							        		<p>Meals: Breakfast lunch and dinner</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingFour">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">DAY 5: ELEPHANT LOCATION 1 TO CHIANG MAI TOWN
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseFour" class="collapse itinerary4" aria-labelledby="headingFour">
+							      		<div class="card-body">
+							        		<p>Weather permitting, our final day in this elephant location begins a little bit differently: Bamboo rafting along the river. The jungle scenery and stoic cliffs illuminate just how removed from the Western world we are. Once returned, we’ll wave goodbye to our newest best friend, the elephants, obviously, and return to Chiang Mai, where a celebratory drink, perhaps a tear, and a night of memories awaits. </p>
+							        		<p>Meals included: Breakfast and lunch</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingSix">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">DAY 6 - 8: CHIANG MAI TO ELEPHANT LOCATION 2
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseSix" class="collapse itinerary6" aria-labelledby="headingSix">
+							      		<div class="card-body">
+							        		<p>This morning we will take a 3 - 4 hour drive to our second elephant location. The elephants here have been taken from a life of inadequate health care, poor diet, exhaustion and entertaining tourists; they were unable to just be elephants. These wonderful creatures have been brought back to their natural environment where they are living in semi-wild conditions, free to roam as much as possible and live their lives how they choose – interacting and foraging. Whilst here we will trek through the jungle to find the elephants and observe their natural behaviour's in their home environment. You will have a chance to teach English to the people of the village as well as receive education about elephants in Asia and learn about the local tribal language and cultures. You may also have the chance to learn how to basket weave! On the afternoon of day 8, you will return back to Chiang Mai city for one final night before our next location!</p>
+							        		<p>Meals: day 6 - Breakfast lunch and dinner day 7 - Breakfast lunch and dinner day 8 - Breakfast and lunch </p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingSeven">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">DAY 9: CHIANG MAI TO CHIANG RAI
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseSeven" class="collapse itinerary7" aria-labelledby="headingSeven">
+							      		<div class="card-body">
+							        		<p>Today we will be heading to Chiang Rai the sister city of Chiang Mai, 33 years older but still just as beautiful!</p>
+							        		<p>Chiang Rai is actually the oldest city of Thailand and today we will take a look at some of the places that make this area so special!</p>
+							        		<p>We will begin with a visit to the famous White Temple where the uniqueness of it will blow you away. After being blown away, we will make our way to the impressive Black temple and then end</p>
+							        		<p>our temple tour with the vivid Blue temple. In the afternoon, we will say goodbye to the beautiful city and head back to Chiang Mai where you have the evening to explore the night markets and shops!</p>
+							        		<p>Meals included: Breakfast</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingEight">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">DAY 10: CHIANG MAI TO BANGKOK
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseEight" class="collapse itinerary8" aria-labelledby="headingEight">
+							      		<div class="card-body">
+							        		<p>After grabbing a quick breakfast, we will jet you off to the bustling big city of Bangkok, which is home to over 8 million people. The diversity of the city is one to take in and explore.</p>
+							        		<p>Once landed, we will make our way to the lovely guesthouse that is nestled in the famous Khao San Road area. Gear up for all things Hangover related. The day is yours to explore, eat, drink and even party!</p>
+							        		<p>Meals: Breakfast</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingEight">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">DAY 11: BANGKOK
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseEight" class="collapse itinerary8" aria-labelledby="headingEight">
+							      		<div class="card-body">
+							        		<p>Bangkok’s sterling skyscrapers exude the wealth of Hong Kong while the hidden markets and alleyways take us to old-world Asia, where you can haggle over delectable spices or even a Rolex. After breakfast, we’ll begin the day with an short city orientation to ease any anxieties over the next part of our tour—we get it, it’s like the Wild West out here, except it smells like delicious, delicious fried noodles. From there, we’ll venture out into the sun-filled streets for a half-day tour of the city’s temples along with a trip onto a floating market. It’s a sensory overload for the eyes, ears, mouth, everything, really. Come evening, we’ll join for another welcome meal. So, put on your finest and be ready to experience the flavors of this beguiling city. </p>
+							        		<p>Meals: Breakfast and Dinner</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingTwelve">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">DAY 12: BANGKOK TO SIEM REAP
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseTwelve" class="collapse itinerary12" aria-labelledby="headingTwelve">
+							      		<div class="card-body">
+							        		<p>Today we will take another short flight to a whole new country, Cambodia! The gateway to the temples of Angkor, Siem Reap embodies the wealth and greatness of old Cambodia, back when gold flowed into the largest ancient city the world has known. Upon arrival, we’ll drop off our bags at the hotel and head into the city to our own non-profit cafe for an Cambodian orientation, along with a group dinner to taste traditional Khmer food whilst doing a bit of people -watching on Pub Street.</p>
+							        		<p>Meals: Breakfast</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingThirteen">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">DAY 13: SIEM REAP
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseThirteen" class="collapse itinerary13" aria-labelledby="headingThirteen">
+							      		<div class="card-body">
+							        		<p>After thoroughly exhausting ourselves on our night out on Pub Street, we’ll be up and out early this morning to Angkor Wat for a sunrise tour (the best time to see the temples, by far). We’ll wander to Bayon Temple and Ta Prohm and take endless selfies in the rising light. It’ll be romantic and breathtaking and a list of twohundred other adjectives that all mean it’s-sobeautiful-I-want-to-livehere-forever. </p>
+							        		<p>Meals: Breakfast</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							  	<div class="card">
+							    	<div class="card-header" id="headingFourteen">
+							      		<h2 class="mb-0">
+								        	<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">DAY 14: SIEM REAP
+								          		<span class="fa-stack fa-2x">
+								            		<i class="fas fa-circle fa-stack-2x"></i>
+								            		<i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+								          		</span>
+								        	</button>
+							      		</h2>
+							    	</div>
+							    	<div id="collapseFourteen" class="collapse itinerary14" aria-labelledby="headingFourteen">
+							      		<div class="card-body">
+							        		<p>Two weeks – gone in the blink of an eye. Don’t mind our sniffling. The tour may have ended but the stories you’ll soon tell are only beginning. It can take weeks to realize what all you accomplished in such a short time with Bamboo. Rather than saying goodbye, we prefer to say, “see you soon.” You’re part of The BamFam now. </p>
+							        		<p>Meals: Breakfast</p>
+							      		</div>
+							    	</div>
+							  	</div>
+							</div>
+							<h3 class="font-weight-bold mb-4">Inclusions</h3>
+							<div class="nav-bar mb-5">
+								<!-- ===================== Nav tabs ===================== -->
+							  	<ul class="nav nav-tabs" role="tablist">
+							    	<li class="nav-item">
+							      		<a class="nav-link active" data-toggle="tab" href="#home"><i class="fa fa-utensils"></i></a>
+							    	</li>
+							    	<li class="nav-item">
+							      		<a class="nav-link" data-toggle="tab" href="#menu1"><i class="fa fa-train"></i></a>
+							    	</li>
+							    	<li class="nav-item">
+							      		<a class="nav-link" data-toggle="tab" href="#menu2"><i class="fa fa-bed"></i></a>
+							    	</li>
+							    	<li class="nav-item">
+							      		<a class="nav-link" data-toggle="tab" href="#menu3"><i class="fa fa-camera"></i></a>
+							    	</li>
+							  	</ul>
+
+							  	<!-- =================== Tab panes =================== -->
+							  	<div class="tab-content">
+							    	<div id="home" class="container tab-pane active"><br>
+							      		<h4>Meals</h4>
+							      		<ul class="ml-5">
+							      			<li>CHIANG MAI CITY: Breakfast is included throughout your stay. We’ll treat you to a traditional Thai welcome meal!</li>
+							      			<li>CHIANG MAI ELEPHANTS:  All meals are included during your stay in the Elephant Sanctuary.</li>
+							      			<li>CHIANG RAI CITY: Breakfast is included throughout your stay.</li>
+							      			<li>CHIANG RAI ELEPHANTS: All meals are included during your stay in the Elephant Sanctuary.</li>
+							      			<li>BANGKOK: Breakfast is included throughout your stay. Another slap-up welcome meal is included again!.</li>
+							      			<li>SIEM REAP: Breakfast is included throughout your stay.</li>
+							      		</ul>
+							    	</div>
+							    	<div id="menu1" class="container tab-pane fade"><br>
+								      	<h4>Transport</h4>
+								      	<ul class="ml-5">
+								      		<li>The first leg of the trip will take you from the city of Chiang Mai to the first Elephant location, located about 1 hours away by truck. On day 5 you will be taken back to Chiang Mai city by truck. The transfer to our 2nd elephant location will take around 3-4hours in a 'Songatael'. This is an opensided truck commonly used in Thailand that will allow you to take in the spectacular views of the National Park en route! On day 7 you will be taken back to Chiang Mai city once again by Songatael. The journey from Chiang Mai to Chiang Rai will also take around 3-4 hours. To get to the Capital of Thailand we will take a short flight from Chiang Mai that will take around 1hour.</li>
+								      		<li>Another 1hour flight will see you from Bangkok to Siem Reap in time for a delicious Cambodian</li>
+								      	</ul>
+							    	</div>
+							    	<div id="menu2" class="container tab-pane fade"><br>
+							      		<h4>Accommodation</h4>
+							      		<ul class="ml-5">
+							      			<li>CHIANG MAI CITY: Very comfortable guesthouse in the city centre that’s even got a swimming pool! Breakfast is included here. Free WiFi, hot water in western bathrooms and walking distance to all good amenities. We’ll also treat you to a traditional Thai welcome meal! </li>
+							      			<li>CHIANG MAI ELEPHANTS: Bamboo huts with Thai style mattresses on the floor covered by mosquito nets. Communal bathrooms with western toilets and cold showers. No WIFI available at the sanctuary. All meals are included whilst at the sanctuary.</li>
+							      			<li>CHIANG RAI CITY: Another comfortable guesthouse including breakfast, Free WiFi, hot water in western bathrooms and excellent location, close to all amenities.</li>
+							      			<li>CHIANG RAI ELEPHANTS: Living in a purpose built accommodation house within the sanctuary. Wake up and have your coffee as you watch the elephants foraging in the jungle. Basic but comfortable with fans and bedding supplied. Hot water in western bathrooms. All meals included during your stay here.</li>
+							      			<li>BANGKOK: Two nights here in an excellent guesthouse accommodation in the heart of one of Bangkok’s most popular areas. Breakfast included. Free WiFi, western bathroom, hot water, A/C, TV, fridge. Twin or triple share. There’s also another slap-up Thai welcome meal included!   SIEM REAP:Very comfortable guest house with aircon, breakfast, Free WiFi, swimming pool and just a short tuk tuk ride to the centre of the town.</li>
+							      		</ul>
+							    	</div>
+							    	<div id="menu3" class="container tab-pane fade"><br>
+							      		<h4>Others</h4>
+							      		<p>Every day on this project is unbelievable and unforgettable – guaranteed! We've packed so much in to this that you'll be exhausted! Here's a few snippets to get you even more excited!</p>
+							      		<ul class="ml-5">
+									      	<li>If you arrive into Chiang Mai international airport on the tour start date, we'll arrange for you to be met and transferred to the guesthouse to start your adventure</li>
+											<li>Daily support from our experienced team of guides</li>
+											<li>Three nights bed & breakfast in stunning central Chiang Mai</li>
+											<li>Guided tour of amazing Chiang Mai including an official welcome meal</li>
+											<li>In-depth orientation on the morning of day two</li>
+											<li>Overnight stay at Chiang Mai elephant sanctuary</li>
+											<li>VIP coach transfer from Chiang Mai and Chiang Rai</li>
+											<li>Overnight accommodation in the Chiang Rai</li>
+											<li>Flight from Chiang Rai to Bangkok</li>
+											<li>Two nights stay in Bangkok including guided city tour and Bangkok meal</li>
+											<li>Train or coach transfer from Bangkok to Surin</li>
+											<li>Overnight in Surin central hotel</li>
+											<li>Two nights in the elephant village with an elephant in your garden!</li>
+											<li>Coach/minibus transfer to Siem Reap, Cambodia</li>
+											<li>Three nights in Siem Reap hotel</li>
+											<li>Unforgettable tour of Angkor Wat starting with sunrise</li>
+											<li>Donations to all of the elephant projects to support the sustainability and care of the animals</li>
+							      		</ul>
+							    	</div>
+							  	</div>
+							</div>
+							<div class="note">
+								<h3 class="font-weight-bold"><i><u>Important notes:</u></i></h3>
+								<ol class="ml-5">
+									<li>The trip will last for 14 days.
+									<li>Insurance is not included. Travel insurance is required for this tour. Make sure you have prepared this tour.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h1 class="text-center m-5 font-weight-bold" style="color: #faa61f">Have a nice and fun trip!</h1>
+		</div>
+		<div class="container">
+			<hr style="border: 2px solid #000;">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<div>
+						<ul class="list-unstyled">
+							<li>StarTravels Vietnam Co., Ltd Business Registration</li>
+							<li><i>Certificate:</i> 0313581779 issued on December 18, 2018</li>
+							<li><i>Place of issue:</i> Business Registration Office - Ho Chi Minh City Department of Planning and Investment</li>
+							<li>
+								<div class="row">
+									<div class="col-sm-1 col-md-1 col-lg-1 m-0 p-0">
+										<i>Address:</i>
+									</div>
+									<div class="col-sm-11 col-md-11 col-lg-11">
+										<ul type="disc">
+											<li class="address">590 Cach Mang Thang Tam, Ward 11, District 3, Ho Chi Minh City, Vietnam</li>
+											<li class="address">No. 8, Ton That Thuyet, My Dinh, Tu Liem, Hanoi City</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<hr style="border: 2px solid #000;">
+		</div>
+
+
+		<!-- ================= end left-bar ================= -->
+
+
+
+
+
+
+		<!--======================= start best-features-1 =====================-->
+	    <section class="banner-padding black-features p-0 m-0" style="color: #fff;">
+            <div class="container pt-5">
+                <div class="row card-img">
+                        <div class="col-sm-12 col-md-6 col-lg-3 mb-5 over">
+	                        <div class="b-feature-block">
+	                            <span><i class="fa fa-thumbs-up flip-animation" ></i></span>
+	                            <h3>Best Travel Agents</h3>
+	                            <p>With over 10,000,000 reviews, verified votes from travelers have helped us become one of the Best Travel Agents.</p>
+	                        </div><!-- end b-feature-block -->
+	                   </div><!-- end columns -->
+	                    <div class="col-sm-12 col-md-6 col-lg-3 mb-5 bellow">
+	                        <div class="b-feature-block">
+	                            <span><i class="fa fa-dollar-sign flip-animation"></i></span>
+	                            <h3>Best Price Guarantee</h3>
+	                            <p>Book through the website to get the best prices with great deals!</p>
+	                        </div><!-- end b-feature-block -->
+	                   </div><!-- end columns -->
+	                   <div class="col-sm-12 col-md-6 col-lg-3 mb-5 over">
+	                        <div class="b-feature-block">
+	                            <span><i class="fa fa-lock flip-animation"></i></span>
+	                            <h3>Safe and Secure</h3>
+	                            <p>Secure online transactions with a variety of options such as payment at convenience stores, bank transfers, credit cards to Internet Banking. No transaction fees.</p>
+	                        </div><!-- end b-feature-block -->
+	                   </div><!-- end columns -->
+	                    <div class="col-sm-12 col-md-6 col-lg-3 mb-5 bellow">
+	                        <div class="b-feature-block">
+	                           <span><i class="fa fa-bars flip-animation"></i></span>
+	                            <h3>Travel Guidelines</h3>
+	                            <p>Team of guides are always ready to help you every step during the trip.</p>
+	                        </div><!-- end b-feature-block -->
+	                   </div><!-- end columns -->
+                </div><!-- end row -->
+        	</div><!-- end container -->
+        </section>
+        <!--======================= end best-features-1 =====================-->
+		
+
+        <!--========================= NEWSLETTER ==========================-->
+        <section id="newsletter" class="section-padding back-size newsletter"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h2>Subscribe Our Newsletter</h2>
+                        <p>Subscibe to receive our interesting updates</p>  
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="email" class="form-control email" placeholder="Enter your Email" required/>
+                                    <span class="input-group-btn">
+                                    	<button class="btn btn-lg">
+                                    		<i class="fa fa-envelope"></i>
+                               		    </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- end columns -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+        <!-- ==================== end newsletter ==================== -->
+
+        <!--======================= FOOTER =======================-->
+        <section id="footer" class="ftr-heading-o ftr-heading-mgn">
+        
+            <div id="footer-top" class="banner-padding ftr-top-grey ftr-text-white">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-contact">
+                            <h3 class="footer-heading">CONTACT US</h3>
+                            <ul class="list-unstyled">
+                                <li><span><i class="fa fa-map-marker"></i></span>590 CMTT, P.11, Q.3, TP. HCM</li>
+                                <li id="phone"><span><i class="fas fa-phone-alt"></i></span>Hotline: (024) 7300 8855</li>
+                                <li><span><i class="fa fa-envelope"></i></span>info@starhotel.com</li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-links">
+                            <h3 class="footer-heading">COMPANY</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="../index.html">Home</a></li>
+                                <li>
+                                	<span>Tours</span>
+                                	<ul type="disc" style="margin-left: 30px;">
+                                		<li><a href="../adventure-tours.html" style="text-transform: none;">Adventure Tours</a></li>
+                                		<li><a href="../beach-tours.html" style="text-transform: none;">Beach Tours</a></li>
+                                		<li><a href="../extended-tours" style="text-transform: none;">Extended Tours</a></li>
+                                		<li><a href="../multi-country-tours" style="text-transform: none;">Multi-country Tours</a></li>
+                                	</ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-links ftr-pad-left">
+                            <h3 class="footer-heading">RESOURCES</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="../contact-us.html">Contact Us</a></li>
+                                <li><a href="../log-in.html">Login</a></li>
+                                <li><a href="../register.html">Register</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg- footer-widget ftr-about">
+                            <h3 class="footer-heading">ABOUT US</h3>
+                            <p>As one of the leading online travel companies, Startravel meets a wide range of travel needs on the same platform, helping customers to have great trips with relatives and friends.</p>
+                            <ul class="social-links list-inline list-unstyled">
+                                <li class="float-left mr-4 mr-md-4"><a href="#"><span><i class="fab fa-facebook-f"></i></span></a></li>
+                                <li class="float-left mr-4 mr-md-4"><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
+                                <li class="float-left mr-4 mr-md-4"><a href="#"><span><i class="fab fa-google-plus-g"></i></span></a></li>
+                                <li class="float-left mr-4 mr-md-4"><a href="#"><span><i class="fab fa-instagram"></i></span></a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-top -->
+
+            <div id="footer-bottom" class="ftr-bot-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="copyright">
+                            <p>Copyright &copy; 2019 <a href="../index.html">StarTravel</a></p>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="terms">
+                            <ul class="list-unstyled list-inline">
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li class="mr-2 ml-2"><span>|</span></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-bottom -->
+        </section>
+        <!-- ================== end footer ================== -->
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../slick/slick.min.js"></script>
+	<script type="text/javascript" src="../js/slick.js"></script>
+	<script type="text/javascript" src="../js/red-center-adventure-1.js"></script>
+	<script type="text/javascript" src="../js/detail-tour.js"></script>
+
+</body>
+</html>
