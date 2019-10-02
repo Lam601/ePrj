@@ -169,7 +169,7 @@ i.fa.fa-bars {
 
 /* ------------------- Page Cover ------------------- */
 .page-cover{
-    padding: 300px 0px;
+    padding: 400px 0px;
     position:relative;
 }
 .page-cover::before{
