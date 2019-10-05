@@ -34,3 +34,28 @@ $(document).ready(function(){
   //       }
   // })
 });
+
+
+function check(){
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value; 
+    var date = document.getElementById('date').value;
+    if (firstName) {
+      if (lastName) {
+        if (email) {
+          if (phone) {
+            if (date) {
+              alert("You have successfully submitted the request. Someone to verify soon!");
+            }
+          }
+        }
+      }
+    } else {
+      // alert('a');
+      return false;
+    }
+}
+
+

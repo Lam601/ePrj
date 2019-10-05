@@ -160,21 +160,21 @@
 									<h3>Book Tour</h3>
 									<p>Come to your dream tour!</p>
 								</div>
-								<form>
+								<form method="POST">
 									<div class="form-group">
-										<input type="text" name="first-name" class="form-control" placeholder="First Name" required>
+										<input type="text" name="first-name" class="form-control" placeholder="First Name" id="firstName" required>
 									</div>
 									<div class="form-group">
-										<input type="text" name="last-name" class="form-control" placeholder="Last Name" required>
+										<input type="text" name="last-name" class="form-control" placeholder="Last Name" id="lastName" required>
 									</div>
 									<div class="form-group">
-										<input type="email" name="mail" class="form-control"placeholder="Email" pattern="\w+@\w+\.\w+" required>
+										<input type="email" name="mail" class="form-control"placeholder="Email" pattern="\w+@\w+\.\w+" id="email" required>
 									</div>
 									<div class="form-group">
-										<input type="phone" name="phone" class="form-control"  placeholder="Phone" pattern="[0-9]{10}" required>
+										<input type="phone" name="phone" class="form-control"  placeholder="Phone" pattern="[0-9]{10}" id="phone" required>
 									</div>
 									<div class="form-group">
-	                            		<input type="date" name="date" class="form-control">
+	                            		<input type="date" name="date" class="form-control" id="date" required>
 	                                </div>
 	                                <div class="row">
 	                                	<div class="col-sm-12 col-md-12 col-lg-6 adults">
@@ -218,7 +218,7 @@
 										  <span class="checkmark"></span><small class="ml-4">By continuing, you are agree to the <a href="#">Terms & Conditions.</a></small>
 										</label>
                                     </div>
-									<button class="btn btn-block btn-orange w-75 p-2 m-auto text-uppercase" style="border-radius: 0px; background-color: #faa61f; color: #fff">Confirm Booking</button>
+									<button class="btn btn-block btn-orange w-75 p-2 m-auto text-uppercase" onclick="check()" style="border-radius: 0px; background-color: #faa61f; color: #fff">Confirm Booking</button>
 								</form>
 							</div>
 						</div>
