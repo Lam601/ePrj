@@ -38,10 +38,10 @@ $(document).ready(function(){
 
 function check(){
     var firstName = document.getElementById('firstName').value;
-    var lastName = document.getElementById('lastName').value;
-    var email = document.getElementById('email').value;
-    var phone = document.getElementById('phone').value; 
-    var date = document.getElementById('date').value;
+    var lastName  = document.getElementById('lastName').value;
+    var email     = document.getElementById('email').value;
+    var phone     = document.getElementById('phone').value; 
+    var date      = document.getElementById('date').value;
     if (firstName) {
       if (lastName) {
         if (email) {
